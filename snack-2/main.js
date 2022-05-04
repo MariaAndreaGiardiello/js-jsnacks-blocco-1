@@ -11,8 +11,10 @@ console.log(secondWord);
 
 // 3. Creo ciclo per ottenere stampata in console la parola più lunga
 if (firstWord > secondWord) {
-    console.log(firstWord)
+    console.log(firstWord, secondWord);
 } else if (firstWord < secondWord) {
-    console.log(secondWord)
+    console.log(secondWord, firstWord);
+} else {
+    console.log("Stessa lunghezza")
 }
 
