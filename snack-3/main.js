@@ -6,7 +6,7 @@ let numero = Number
 console.log(numero)
 
 // 2. creo ciclo for per ripetere l'operazione n volte
-for (i = 0; i <= 3; i++){
+for (i = 0; i <= 10; i++){
     numero = prompt("Inserisci un numero")
 }
 
