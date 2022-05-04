@@ -4,15 +4,15 @@
 const nomi = ["Martina", "Marco", "Luca", "Paolo"];
 console.log(nomi);
 // 2. creo una costante per l'estrazione casuale dei nomi
-const randomNomi = Math.floor(Math.random() * 4) + 1;
+const randomNomi = Math.floor(Math.random() * nomi.length);
 let nomiEstratti = randomNomi;
 
 // 3. creo una costante array per i cognomi
 const cognomi = ["Rossi", "Verdi", "Gialli", "Blu"];
 console.log(cognomi);
 // 4. creo una costante per l'estrazione casuale dei cognomi
-const randomCognomi = Math.floor(Math.random() * 4) + 1;
+const randomCognomi = Math.floor(Math.random() * cognomi.length);
 let cognomiEstratti = randomCognomi;
 
-const estratto = nomiEstratti + cognomiEstratti;
-console.log(estratto);
+let estratto = (nomi[randomNomi]) + (cognomi[randomCognomi]);
+console.log(estratto)
