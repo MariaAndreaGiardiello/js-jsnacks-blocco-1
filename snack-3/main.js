@@ -8,6 +8,7 @@ let totale = 0
 for (i = 0; i <= 10; i++){
 // 3. Creo variabile dove inserire i numeri da sommare
     const numero = Number(prompt("Inserisci un numero"))
+    console.log(numero)
 // 4. calcolo il risultato.
     totale += numero
 }
