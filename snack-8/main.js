@@ -5,15 +5,15 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(numbers);
 
 // 2. creo variabile per effettuare la somma
-let somma = 0;
+let somma = Number([]);
 
 // 3. creo ciclo per estrapolare i numeri in posizione dispari ed effettuo la somma di tali numeri
-for ( i = 0; i < 10; i++) {
-    console.log(numbers[i])
+for ( i = 0; i < numbers.length; i++) {
     if (i % 2 === 1) {
-        somma = i + i;
-        console.log(somma)
+        console.log(numbers[i])
+        somma += numbers[i];
     }
 }
+// 4. visualizzo il risultato sulla console.
+console.log(somma)
 
-// . creo costante per il risultato da visualizzare
